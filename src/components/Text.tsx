@@ -5,7 +5,7 @@ interface TextProps {
 }
 
 const Text: FunctionComponent<TextProps> = function ({ text }) {
-  return <div>{text}</div>;
+  return <div>{text}s</div>;
 };
 
 export default Text;
