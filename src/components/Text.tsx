@@ -4,8 +4,8 @@ interface TextProps {
   text: string;
 }
 
-const Text: FunctionComponent<TextProps> = function ({ text }) {
+const text: FunctionComponent<TextProps> = function ({ text }) {
   return <div>{text}</div>;
 };
 
-export default Text;
+export default text;
